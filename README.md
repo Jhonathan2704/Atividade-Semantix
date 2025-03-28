@@ -87,3 +87,4 @@ jupyter notebook notebooks/02_Churn_Prediction_Model.ipynb
 
 Acesse o Dashboard:
 
+https://lookerstudio.google.com/reporting/454623c9-c48f-4bfc-b876-9b02ce55b685
