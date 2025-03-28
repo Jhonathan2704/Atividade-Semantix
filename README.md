@@ -19,17 +19,33 @@ Visualização: Looker Studio, Matplotlib
 Versionamento: GitHub
 
 📂 Estrutura do Repositório
-/projeto-churn-telecom
-│── /data
-│   ├── raw/WA_Fn-UseC_-Telco-Customer-Churn.csv   # Dados brutos
-│   └── processed/churn_processed.csv              # Dados tratados
-│── /notebooks
-│   ├── 01_EDA_Churn_Analysis.ipynb                # Análise exploratória
-│   └── 02_Churn_Prediction_Model.ipynb            # Modelo ML
-│── /docs
-│   └── dashboard_looker.pdf                       # Print do dashboard
-│── README.md                                      # Este arquivo
-└── requirements.txt                               # Dependências
+projeto-churn-telecom/
+│
+├── data/
+│ ├── raw/ # Dados brutos
+│ │ └── WA_Fn-UseC_-Telco-Customer-Churn.csv
+│ │
+│ └── processed/ # Dados tratados
+│ ├── churn_processed.csv
+│ └── churn_encoded.csv
+│
+├── notebooks/
+│ ├── 01_EDA_Churn_Analysis.ipynb # Análise exploratória
+│ ├── 02_Churn_Prediction_Model.ipynb # Modelo de ML
+│ └── 03_SHAP_Analysis.ipynb # Explicabilidade do modelo
+│
+├── src/
+│ ├── data_processing.py # Scripts de limpeza
+│ └── visualization.py # Funções de plotagem
+│
+├── docs/
+│ ├── dashboard_looker.pdf # Print do dashboard
+│ └── apresentacao_resultados.pptx # Slides executivos
+│
+├── .gitignore
+├── README.md # Este arquivo
+├── requirements.txt # Dependências
+└── LICENSE
 
 🚀 Como Executar
 
