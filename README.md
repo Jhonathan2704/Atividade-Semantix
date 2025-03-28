@@ -77,13 +77,6 @@ Python 3.8+
 git clone https://github.com/seu-usuario/projeto-churn-telecom.git
 pip install -r requirements.txt
 
-Passo a Passo:
-
-# 1. Rodar análise exploratória
-jupyter notebook notebooks/01_EDA_Churn_Analysis.ipynb
-
-# 2. Treinar modelo (incluindo SHAP)
-jupyter notebook notebooks/02_Churn_Prediction_Model.ipynb
 
 Acesse o Dashboard:
 
