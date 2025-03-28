@@ -21,15 +21,15 @@ Versionamento: GitHub
 📂 Estrutura do Repositório
 /projeto-churn-telecom
 │── /data
-│   ├── raw/WA_Fn-UseC_-Telco-Customer-Churn.csv  # Dados brutos
+│   ├── raw/WA_Fn-UseC_-Telco-Customer-Churn.csv   # Dados brutos
 │   └── processed/churn_processed.csv              # Dados tratados
 │── /notebooks
-│   ├── 01_EDA_Churn_Analysis.ipynb               # Análise exploratória
-│   └── 02_Churn_Prediction_Model.ipynb           # Modelo ML
+│   ├── 01_EDA_Churn_Analysis.ipynb                # Análise exploratória
+│   └── 02_Churn_Prediction_Model.ipynb            # Modelo ML
 │── /docs
-│   └── dashboard_looker.pdf                      # Print do dashboard
-│── README.md                                     # Este arquivo
-└── requirements.txt                              # Dependências
+│   └── dashboard_looker.pdf                       # Print do dashboard
+│── README.md                                      # Este arquivo
+└── requirements.txt                               # Dependências
 
 🚀 Como Executar
 
